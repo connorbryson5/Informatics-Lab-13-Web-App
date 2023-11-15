@@ -23,7 +23,7 @@ st.sidebar.header('Lab 13 App')
 
 
 # Data
-dat = pd.read_csv("C:/Users/Connor/Desktop/Intro to Informatics/Labs/Lab 13/Informatics-Lab-13-Web-App/data/heart_2022_no_nans.csv")
+dat = pd.read_csv("https://github.com/connorbryson5/Informatics-Lab-13-Web-App/blob/main/data/heart_2022_no_nans.csv?raw=True")
 
 had_stroke = dat[dat['HadStroke'] == "Yes"]
 
